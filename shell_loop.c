@@ -56,6 +56,12 @@ int find_builtin(info_t *info)
 {
 	int i, built_in_ret = -1;
 
+	builtin_table builtintbl[] = {
+		{"env", _myenv},
+		{"setenv", _mysetenv},
+		{"unsetenv", _myunsetenv},
+		{NULL, NULL}
+	};
 
 	for (i = 0; builtintbl[i].type; i++)
 		if (_strcmp(info->argv[0], builtintbl[i].type) == 0)
