@@ -124,6 +124,7 @@ char *find_path(info_t *, char *, char *);
 
 /* loophsh.c */
 int loophsh(char **);
+void shell_loop(data_shell *datash);
 
 /* toem_errors.c */
 void _eputs(char *);
