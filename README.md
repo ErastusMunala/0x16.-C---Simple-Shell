@@ -1,1 +1,1 @@
-Simple Shell project done by Erastus Munala and Simong NG'ang'a
+Simple Shell project done by Erastus Munala and Simong Ng'ang'a
